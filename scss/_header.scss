@@ -1,0 +1,64 @@
+.hero {
+  position: absolute;
+  right: -33.563rem;
+  top: -14.613rem;
+  z-index: -1;
+}
+
+.header {
+  display: grid;
+  max-width: 111rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2.4rem;
+
+  &__logo {
+    width: 11.117rem;
+    height: 2.768rem;
+  }
+  &__cta {
+    justify-self: end;
+    margin-bottom: 17.2rem;
+    &--btn {
+      font-weight: 700;
+      font-size: 1.8rem;
+      border: none;
+      background-color: $color-blue-dark;
+      color: $color-white;
+      padding: 2rem 5.1rem;
+      border-radius: 2.8rem;
+    }
+  }
+
+  &__description {
+    max-width: 45.7rem;
+    &--headline {
+      color: $color-blue-dark;
+      font-weight: 800;
+      font-size: 5.6rem;
+      line-height: 7.1rem;
+      margin-bottom: 2.9rem;
+    }
+    &--text {
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+      color: $color-grey;
+      margin-bottom: 4rem;
+    }
+    &--btn {
+      margin-bottom: 22.6rem;
+      background: linear-gradient(
+        180deg,
+        $color-orange-gradient 0%,
+        $color-pink-gradient 100%
+      );
+      border: none;
+      color: $color-white;
+      padding: 2.35rem 5.1rem;
+      font-size: 1.8rem;
+      font-weight: 700;
+      border-radius: 3.15rem;
+    }
+  }
+}

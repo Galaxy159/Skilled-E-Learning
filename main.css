@@ -14,4 +14,77 @@ html {
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1.6rem;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero {
+  position: absolute;
+  right: -33.563rem;
+  top: -14.613rem;
+  z-index: -1;
+}
+
+.header {
+  display: grid;
+  max-width: 111rem;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2.4rem;
+}
+.header__logo {
+  width: 11.117rem;
+  height: 2.768rem;
+}
+.header__cta {
+  justify-self: end;
+  margin-bottom: 17.2rem;
+}
+.header__cta--btn {
+  font-weight: 700;
+  font-size: 1.8rem;
+  border: none;
+  background-color: #13183f;
+  color: #ffffff;
+  padding: 2rem 5.1rem;
+  border-radius: 2.8rem;
+}
+.header__description {
+  max-width: 45.7rem;
+}
+.header__description--headline {
+  color: #13183f;
+  font-weight: 800;
+  font-size: 5.6rem;
+  line-height: 7.1rem;
+  margin-bottom: 2.9rem;
+}
+.header__description--text {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #83869a;
+  margin-bottom: 4rem;
+}
+.header__description--btn {
+  margin-bottom: 22.6rem;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border: none;
+  color: #ffffff;
+  padding: 2.35rem 5.1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-radius: 3.15rem;
+}
+
+.features {
+  max-width: 111rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }/*# sourceMappingURL=main.css.map */

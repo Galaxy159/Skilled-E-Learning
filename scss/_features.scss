@@ -1,0 +1,6 @@
+.features {
+  max-width: 111rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
