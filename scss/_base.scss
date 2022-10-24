@@ -7,3 +7,24 @@ $color-pink-light: #ffa7c3;
 $color-orange-gradient: #ff6f48;
 $color-pink-gradient: #f02aa6;
 $color-blue-gradient: #4851ff;
+
+// Fonts:
+$font-primary: "Plus Jakarta Sans";
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary, sans-serif;
+  font-size: 1.6rem;
+}
