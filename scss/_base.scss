@@ -17,7 +17,7 @@ $font-primary: "Plus Jakarta Sans";
 
 @mixin respond($breakpoint) {
   @if $breakpoint == tablet {
-    @media (max-width: 90em) {
+    @media (max-width: 85em) {
       @content;
     }
   }
