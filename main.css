@@ -23,6 +23,11 @@ body {
   position: relative;
 }
 
+button,
+a {
+  cursor: url("../assets/Pointer.svg"), auto;
+}
+
 .hero {
   position: absolute;
   right: -33.563rem;
@@ -54,6 +59,10 @@ body {
   padding: 2rem 5.1rem;
   border-radius: 2.8rem;
 }
+.header__cta--btn:hover,
+.header__cta--btn :active {
+  background-color: #666ca3;
+}
 .header__description {
   max-width: 45.7rem;
 }
@@ -80,6 +89,10 @@ body {
   font-size: 1.8rem;
   font-weight: 700;
   border-radius: 3.15rem;
+}
+.header__description--btn:hover,
+.header__description--btn :active {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
 }
 
 .features {
@@ -158,4 +171,8 @@ body {
   border: none;
   border-radius: 2.8rem;
   padding: 1.4rem 3.2rem;
+}
+.footer__btn:hover,
+.footer__btn :active {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
 }/*# sourceMappingURL=main.css.map */

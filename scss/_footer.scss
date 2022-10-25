@@ -25,5 +25,19 @@
     border: none;
     border-radius: 2.8rem;
     padding: 1.4rem 3.2rem;
+
+    &:hover,
+    :active {
+      background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 0.5),
+          rgba(255, 255, 255, 0.5)
+        ),
+        linear-gradient(
+          180deg,
+          $color-blue-gradient -54.32%,
+          $color-pink-gradient 100%
+        );
+    }
   }
 }

@@ -36,3 +36,8 @@ body {
   overflow: hidden;
   position: relative;
 }
+
+button,
+a {
+  cursor: url("../assets/Pointer.svg"), auto;
+}

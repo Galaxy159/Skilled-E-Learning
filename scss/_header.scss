@@ -27,6 +27,11 @@
       color: $color-white;
       padding: 2rem 5.1rem;
       border-radius: 2.8rem;
+
+      &:hover,
+      :active {
+        background-color: $color-blue-light;
+      }
     }
   }
 
@@ -59,6 +64,20 @@
       font-size: 1.8rem;
       font-weight: 700;
       border-radius: 3.15rem;
+
+      &:hover,
+      :active {
+        background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+          ),
+          linear-gradient(
+            180deg,
+            $color-orange-gradient 0%,
+            $color-pink-gradient 100%
+          );
+      }
     }
   }
 }
