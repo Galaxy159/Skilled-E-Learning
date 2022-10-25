@@ -65,7 +65,7 @@ a {
   display: grid;
   max-width: 111rem;
   margin: 0 auto;
-  grid-template-columns: 44rem 1fr;
+  grid-template-columns: 46rem 1fr;
   margin-top: 2.4rem;
 }
 @media (max-width: 85em) {
@@ -157,12 +157,14 @@ a {
   line-height: 2.8rem;
   color: #83869a;
   margin-bottom: 4rem;
+  padding-right: 2rem;
 }
 @media (max-width: 85em) {
   .header__description--text {
     font-size: 1.6rem;
     line-height: 2.6rem;
     margin-bottom: 2.4rem;
+    padding-right: 0;
   }
 }
 .header__description--btn {
