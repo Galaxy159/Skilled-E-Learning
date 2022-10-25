@@ -199,7 +199,8 @@ a {
   max-width: 111rem;
   margin: 0 auto 14rem auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 35rem);
+  grid-template-rows: repeat(2, 32rem);
   -moz-column-gap: 3rem;
        column-gap: 3rem;
   row-gap: 8rem;
@@ -208,7 +209,8 @@ a {
   .features {
     max-width: 69.8rem;
     margin: 0 auto 8.6rem auto;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 33.9rem);
+    grid-template-rows: repeat(3, 25.9rem);
     -moz-column-gap: 1rem;
          column-gap: 1rem;
     row-gap: 5.6rem;
@@ -217,6 +219,7 @@ a {
 @media (max-width: 48em) {
   .features {
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     margin-bottom: 8rem;
     max-width: 32.7rem;
     row-gap: 4rem;
