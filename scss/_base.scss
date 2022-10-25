@@ -52,7 +52,11 @@ body {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  background-color: $color-white;
+  background: linear-gradient(
+    180deg,
+    $color-white 50%,
+    rgba(72, 81, 255, 0.1) 100%
+  );
 
   @include respond(tablet) {
     max-width: 76.8rem;

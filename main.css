@@ -22,7 +22,7 @@ body {
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  background-color: #ffffff;
+  background: linear-gradient(180deg, #ffffff 50%, rgba(72, 81, 255, 0.1) 100%);
 }
 @media (max-width: 85em) {
   .container {
