@@ -260,12 +260,6 @@ a {
 }
 .features__feature--icon {
   transform: translateY(-2.4rem);
-  margin-bottom: 0.8rem;
-}
-@media (max-width: 85em) {
-  .features__feature--icon {
-    margin-bottom: 0;
-  }
 }
 .features__feature--headline {
   margin-bottom: 2.4rem;
