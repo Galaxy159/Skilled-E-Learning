@@ -2,7 +2,11 @@
   position: absolute;
   right: -33.563rem;
   top: -14.613rem;
-  z-index: -1;
+
+  @include respond(tablet) {
+    top: -9.213rem;
+    right: -29.771rem;
+  }
 }
 
 .header {
@@ -12,9 +16,19 @@
   grid-template-columns: repeat(2, 1fr);
   margin-top: 2.4rem;
 
+  @include respond(tablet) {
+    max-width: 68.9rem;
+  }
+
   &__logo {
     width: 11.117rem;
     height: 2.768rem;
+    transform: translateY(50%);
+
+    @include respond(tablet) {
+      width: 8.9rem;
+      height: 2.216rem;
+    }
   }
   &__cta {
     justify-self: end;
@@ -25,8 +39,16 @@
       border: none;
       background-color: $color-blue-dark;
       color: $color-white;
-      padding: 2rem 5.1rem;
+      width: 16.7rem;
+      height: 5.6rem;
       border-radius: 2.8rem;
+      position: relative;
+
+      @include respond(tablet) {
+        font-size: 1.6rem;
+        width: 14rem;
+        height: 4.8rem;
+      }
 
       &:hover,
       :active {
@@ -43,6 +65,12 @@
       font-size: 5.6rem;
       line-height: 7.1rem;
       margin-bottom: 2.9rem;
+
+      @include respond(tablet) {
+        font-size: 4rem;
+        line-height: 5rem;
+        margin-bottom: 2.5rem;
+      }
     }
     &--text {
       font-weight: 500;
@@ -50,9 +78,17 @@
       line-height: 2.8rem;
       color: $color-grey;
       margin-bottom: 4rem;
+
+      @include respond(tablet) {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        margin-bottom: 2.4rem;
+      }
     }
     &--btn {
-      margin-bottom: 22.6rem;
+      width: 16.7rem;
+      height: 6.3rem;
+      margin-bottom: 25rem;
       background: linear-gradient(
         180deg,
         $color-orange-gradient 0%,
@@ -60,10 +96,15 @@
       );
       border: none;
       color: $color-white;
-      padding: 2.35rem 5.1rem;
       font-size: 1.8rem;
       font-weight: 700;
       border-radius: 3.15rem;
+
+      @include respond(tablet) {
+        font-size: 1.6rem;
+        height: 5.6rem;
+        margin-bottom: 21rem;
+      }
 
       &:hover,
       :active {
