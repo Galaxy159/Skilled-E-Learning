@@ -14,8 +14,6 @@ $color-background: #f2f2f2;
 $font-primary: "Plus Jakarta Sans";
 
 // Mixins: Media query
-// Desktop: 1440px, Tablet: 768px, Phone: 375px
-// example code: @include respond(tablet) {}
 
 @mixin respond($breakpoint) {
   @if $breakpoint == tablet {
@@ -58,6 +56,10 @@ body {
 
   @include respond(tablet) {
     max-width: 76.8rem;
+  }
+
+  @include respond(phone) {
+    max-width: 37.5rem;
   }
 }
 

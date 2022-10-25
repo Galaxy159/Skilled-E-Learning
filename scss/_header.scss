@@ -7,17 +7,32 @@
     top: -9.213rem;
     right: -29.771rem;
   }
+
+  @include respond(phone) {
+    position: relative;
+    top: 0;
+    right: 3rem;
+    text-align: center;
+    margin-bottom: 6.6rem;
+  }
 }
 
 .header {
   display: grid;
   max-width: 111rem;
   margin: 0 auto;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 44rem 1fr;
   margin-top: 2.4rem;
 
   @include respond(tablet) {
     max-width: 68.9rem;
+    grid-template-columns: 40rem 1fr;
+  }
+
+  @include respond(phone) {
+    max-width: 32.7rem;
+    margin-top: 1.6rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   &__logo {
@@ -33,6 +48,10 @@
   &__cta {
     justify-self: end;
     margin-bottom: 17.2rem;
+
+    @include respond(phone) {
+      margin-bottom: 3.8rem;
+    }
     &--btn {
       font-weight: 700;
       font-size: 1.8rem;
@@ -59,6 +78,11 @@
 
   &__description {
     max-width: 45.7rem;
+
+    @include respond(phone) {
+      grid-column: 1 / -1;
+    }
+
     &--headline {
       color: $color-blue-dark;
       font-weight: 800;
@@ -70,6 +94,9 @@
         font-size: 4rem;
         line-height: 5rem;
         margin-bottom: 2.5rem;
+      }
+      @include respond(phone) {
+        margin-bottom: 2.6rem;
       }
     }
     &--text {
@@ -104,6 +131,10 @@
         font-size: 1.6rem;
         height: 5.6rem;
         margin-bottom: 21rem;
+      }
+
+      @include respond(phone) {
+        margin-bottom: 4.6rem;
       }
 
       &:hover,

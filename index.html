@@ -20,13 +20,6 @@
   </head>
   <body>
     <div class="container">
-      <picture class="hero">
-        <source
-          media="(max-width: 1440px)"
-          srcset="./assets/image-hero-tablet.png"
-        />
-        <img src="./assets/image-hero-desktop.png" alt="hero" />
-      </picture>
       <header class="header">
         <img src="./assets/logo-dark.svg" alt="Logo" class="header__logo" />
         <div class="header__cta">
@@ -43,6 +36,17 @@
           <button class="header__description--btn">Get Started</button>
         </div>
       </header>
+      <picture class="hero">
+        <source
+          media="(max-width: 768px)"
+          srcset="./assets/image-hero-mobile.png"
+        />
+        <source
+          media="(max-width: 1440px)"
+          srcset="./assets/image-hero-tablet.png"
+        />
+        <img src="./assets/image-hero-desktop.png" alt="hero" />
+      </picture>
       <div class="features">
         <div class="features__feature--checkout">
           <p>Check out our most popular courses!</p>
