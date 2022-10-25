@@ -62,6 +62,7 @@
       height: 5.6rem;
       border-radius: 2.8rem;
       position: relative;
+      z-index: 1;
 
       @include respond(tablet) {
         font-size: 1.6rem;
