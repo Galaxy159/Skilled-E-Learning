@@ -84,7 +84,7 @@ body {
 
 .features {
   max-width: 111rem;
-  margin: 0 auto;
+  margin: 0 auto 14rem auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   -moz-column-gap: 3rem;
@@ -134,4 +134,28 @@ body {
   font-size: 1.8rem;
   line-height: 2.8px;
   font-weight: 700;
+}
+
+.footer {
+  background-color: #13183f;
+  height: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3.2rem 16.5rem;
+  padding: 3.2rem 16.5rem;
+}
+.footer__img {
+  width: 11.117rem;
+  height: 2.768rem;
+}
+.footer__btn {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  border: none;
+  border-radius: 2.8rem;
+  padding: 1.4rem 3.2rem;
 }/*# sourceMappingURL=main.css.map */
