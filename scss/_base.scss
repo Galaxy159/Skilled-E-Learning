@@ -55,7 +55,7 @@ body {
   background-color: $color-white;
 
   @include respond(tablet) {
-    max-width: 76.8rem;
+    max-width: 75rem;
   }
 
   @include respond(phone) {
